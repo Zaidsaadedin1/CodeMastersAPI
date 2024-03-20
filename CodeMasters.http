@@ -1,0 +1,6 @@
+@CodeMasters_HostAddress = http://localhost:5032
+
+GET {{CodeMasters_HostAddress}}
+Accept: application/json
+
+###
