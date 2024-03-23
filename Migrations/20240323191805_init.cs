@@ -21,7 +21,7 @@ namespace CodeMasters.Migrations
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     University = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Major = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    PhoneNumber = table.Column<int>(type: "int", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CreateAt = table.Column<DateTime>(type: "datetime2", nullable: true),
                     StartAtDate = table.Column<DateTime>(type: "datetime2", nullable: true),
