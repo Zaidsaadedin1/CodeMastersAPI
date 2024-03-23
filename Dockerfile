@@ -15,5 +15,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS serve
 WORKDIR /app
 COPY --from=build /app .
 
-EXPOSE 5000
 ENTRYPOINT ["dotnet", "CodeMasters.dll"]
