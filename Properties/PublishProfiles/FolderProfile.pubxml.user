@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Projects\Priv\CodeMastersApisPublished</_PublishTargetUrl>
+    <History>True|2024-03-22T21:46:26.1075026Z;True|2024-03-23T00:34:16.5186897+03:00;True|2024-03-21T19:15:45.0453535+03:00;True|2024-03-21T18:49:19.9246921+03:00;True|2024-03-21T14:26:59.6859273+03:00;True|2024-03-21T14:12:25.1590892+03:00;True|2024-03-21T14:10:47.4772614+03:00;True|2024-03-21T13:42:10.8727816+03:00;True|2024-03-21T13:37:59.0131487+03:00;False|2024-03-21T13:36:53.5912450+03:00;True|2024-03-21T13:13:23.9170981+03:00;True|2024-03-21T13:09:50.6121196+03:00;True|2024-03-21T12:50:12.9308153+03:00;True|2024-03-21T11:55:35.3211998+03:00;True|2024-03-21T11:35:52.8835089+03:00;True|2024-03-21T11:15:02.0112392+03:00;True|2024-03-21T11:14:31.6157730+03:00;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=GIS-E14-OZ%3bInitial Catalog=codemasters%3bUser ID=sa%3bPassword=Saadedin%401999%3bConnect Timeout=30%3bEncrypt=True%3bTrust Server Certificate=True%3bApplication Intent=ReadWrite%3bMulti Subnet Failover=False</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CodeMasters.Context.ApplicationDbContext">
+      <Value>Data Source=DESKTOP-TA9UQLS\ZAID%3bInitial Catalog=CodeMasters%3bIntegrated Security=True%3bConnect Timeout=30%3bEncrypt=True%3bTrust Server Certificate=True%3bApplication Intent=ReadWrite%3bMulti Subnet Failover=False</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

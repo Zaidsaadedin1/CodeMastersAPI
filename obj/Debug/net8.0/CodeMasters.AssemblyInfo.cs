@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ba04df94-cb82-4ab8-b8f6-cf2637baccf0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeMasters")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ad343995ae589cb41ad3436a1ed4f10441b754c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeMasters")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeMasters")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

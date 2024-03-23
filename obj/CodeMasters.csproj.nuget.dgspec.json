@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zaids\\Desktop\\CodeMasters\\CodeMasters.csproj": {}
+    "C:\\Projects\\Priv\\CodeMastersAPI\\CodeMasters.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zaids\\Desktop\\CodeMasters\\CodeMasters.csproj": {
+    "C:\\Projects\\Priv\\CodeMastersAPI\\CodeMasters.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zaids\\Desktop\\CodeMasters\\CodeMasters.csproj",
+        "projectUniqueName": "C:\\Projects\\Priv\\CodeMastersAPI\\CodeMasters.csproj",
         "projectName": "CodeMasters",
-        "projectPath": "C:\\Users\\zaids\\Desktop\\CodeMasters\\CodeMasters.csproj",
-        "packagesPath": "C:\\Users\\zaids\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zaids\\Desktop\\CodeMasters\\obj\\",
+        "projectPath": "C:\\Projects\\Priv\\CodeMastersAPI\\CodeMasters.csproj",
+        "packagesPath": "C:\\Users\\z.saad\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Priv\\CodeMastersAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zaids\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\z.saad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Amazon.Lambda.AspNetCoreServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Amazon.Lambda.AspNetCoreServer.Hosting": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
@@ -120,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
