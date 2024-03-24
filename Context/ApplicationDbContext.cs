@@ -10,7 +10,8 @@ namespace CodeMasters.Context
         }
 
         public DbSet<Orders> Orders { get; set; }
-      
+        public DbSet<User> User { get; set; }
+
 
 
     }

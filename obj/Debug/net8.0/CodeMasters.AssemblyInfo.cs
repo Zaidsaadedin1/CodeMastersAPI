@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeMasters")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18f0679c1c29f073b5b00e3a8ac854b0fbb90cfe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dee8bc4305d42ba8a191f3ed38d934e543153b0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeMasters")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeMasters")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

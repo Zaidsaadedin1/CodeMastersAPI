@@ -12,5 +12,7 @@
         public DateTime? CreateAt { get; set; } = DateTime.Now;
         public DateTime? StartAtDate { get; set; }
         public DateTime? DeadLineDate { get; set; }
+
+      
     }
 }

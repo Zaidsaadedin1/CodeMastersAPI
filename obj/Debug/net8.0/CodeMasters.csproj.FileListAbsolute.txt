@@ -307,11 +307,4 @@ C:\Projects\Priv\CodeMastersAPI\obj\Debug\net8.0\refint\CodeMasters.dll
 C:\Projects\Priv\CodeMastersAPI\obj\Debug\net8.0\CodeMasters.pdb
 C:\Projects\Priv\CodeMastersAPI\obj\Debug\net8.0\CodeMasters.genruntimeconfig.cache
 C:\Projects\Priv\CodeMastersAPI\obj\Debug\net8.0\ref\CodeMasters.dll
-C:\Projects\Priv\CodeMastersAPI\bin\Debug\net8.0\Amazon.Lambda.APIGatewayEvents.dll
-C:\Projects\Priv\CodeMastersAPI\bin\Debug\net8.0\Amazon.Lambda.ApplicationLoadBalancerEvents.dll
-C:\Projects\Priv\CodeMastersAPI\bin\Debug\net8.0\Amazon.Lambda.AspNetCoreServer.dll
-C:\Projects\Priv\CodeMastersAPI\bin\Debug\net8.0\Amazon.Lambda.AspNetCoreServer.Hosting.dll
-C:\Projects\Priv\CodeMastersAPI\bin\Debug\net8.0\Amazon.Lambda.Core.dll
-C:\Projects\Priv\CodeMastersAPI\bin\Debug\net8.0\Amazon.Lambda.Logging.AspNetCore.dll
-C:\Projects\Priv\CodeMastersAPI\bin\Debug\net8.0\Amazon.Lambda.RuntimeSupport.dll
-C:\Projects\Priv\CodeMastersAPI\bin\Debug\net8.0\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Projects\Priv\CodeMastersAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

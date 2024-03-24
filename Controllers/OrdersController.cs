@@ -1,5 +1,6 @@
 ﻿using CodeMasters.Dtos.OrdersDtos;
 using CodeMasters.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -27,9 +28,7 @@ namespace CodeMasters.Controllers
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.InnerException.Message);
-
-                return BadRequest(ex.Message);    
+                return BadRequest(ex);    
             }
         }
 
@@ -66,7 +65,7 @@ namespace CodeMasters.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+        [Authorize]
         [HttpGet("/GetOrderById")]
         public async Task<IActionResult> GetOrderById([FromQuery] int id)
         {
@@ -80,7 +79,7 @@ namespace CodeMasters.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+        [Authorize]
         [HttpGet("/GetAllOrders")]
         public async Task<IActionResult> GetAllOrders()
         {
