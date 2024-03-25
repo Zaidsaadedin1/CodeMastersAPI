@@ -32,14 +32,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Enable CORS
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(builder =>
+    options.AddPolicy("CodeMastersTypePolicy",builder =>
     {
                        // builder.WithOrigins("http://localhost:3000")
 
         //builder.WithOrigins("https://www.codemastersjo.site")
-        builder.AllowAnyOrigin()
-               .AllowAnyHeader()
-               .AllowAnyMethod();
+         builder.AllowAnyOrigin()
+
+.AllowAnyHeader()
+.AllowAnyMethod();
     });
 });
 
@@ -105,6 +106,6 @@ app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API Ti
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseCors(); 
+app.UseCors("CodeMastersTypePolicy"); 
 app.MapControllers();
 app.Run();
