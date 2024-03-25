@@ -34,9 +34,9 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
     {
-        /*builder.WithOrigins("https://www.codemastersjo.site")*/
-                builder.WithOrigins("http://localhost:3000")
-           
+                       // builder.WithOrigins("http://localhost:3000")
+
+        builder.WithOrigins("https://www.codemastersjo.site")
                .AllowAnyHeader()
                .AllowAnyMethod();
     });
