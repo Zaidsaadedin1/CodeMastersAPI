@@ -1,5 +1,6 @@
 using CodeMasters.Context;
 using CodeMasters.Interfaces;
+using CodeMasters.Managers;
 using CodeMasters.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -35,7 +36,7 @@ builder.Services.AddCors(options =>
     {
         /*builder.WithOrigins("https://www.codemastersjo.site")*/
                 builder.WithOrigins("http://localhost:3000")
-
+           
                .AllowAnyHeader()
                .AllowAnyMethod();
     });
@@ -93,6 +94,11 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorization();
 
 var app = builder.Build();
+var migrateDb = app.Configuration.GetValue("Migrate", false);
+if (migrateDb)
+{
+    app.MigrateDatabase();
+}
 app.UseSwagger();
 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API Title V1"));
 app.UseHttpsRedirection();
