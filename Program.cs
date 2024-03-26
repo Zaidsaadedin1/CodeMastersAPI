@@ -38,7 +38,7 @@ builder.Services.AddCors(options =>
 
         //builder.WithOrigins("https://www.codemastersjo.site")
          builder.AllowAnyOrigin()
-
+             .AllowCredentials()
 .AllowAnyHeader()
 .AllowAnyMethod();
     });
