@@ -37,7 +37,7 @@ builder.Services.AddCors(options =>
                        // builder.WithOrigins("http://localhost:3000")
 
         //builder.WithOrigins("https://www.codemastersjo.site")
-         builder.AllowAnyOrigin()
+         builder.SetIsOriginAllowed(hostName => true)
              .AllowCredentials()
 .AllowAnyHeader()
 .AllowAnyMethod();
